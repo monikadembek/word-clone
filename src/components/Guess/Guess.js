@@ -5,7 +5,7 @@ function Guess({ value, answer }) {
   
   const cellsArray = Array(5).fill('');
 
-  const validatedValue = checkGuess(value, answer);
+  const validatedValue = checkGuess(value, answer);  
 
   return (
     <p className="guess">

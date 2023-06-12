@@ -9,7 +9,11 @@ function GuessResults({ results, answer }) {
   return (
     <div className="guess-results">
       {rowsArray.map((row, index) => (
-        <Guess key={index} value={results[index]} answer={answer}/>
+        <Guess 
+          key={index} 
+          value={results[index]} 
+          answer={answer}
+        />
       ))}
     </div>
   );
